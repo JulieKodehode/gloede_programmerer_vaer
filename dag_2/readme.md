@@ -8,7 +8,7 @@ Når vi først har laget en nytt HTML-fil, kan vi bruke noe som heter emmet abbr
 
 Skriv ! (Shift 1) og trykk enter for å få en "mal" å kode fra.
 
-Vi bruker emmet abbreviation når vi skriver kode, istedenfor å manuelt skrive <h1></h1> kan vi kun skrive h1 og få hjelp av emmet abbreviation til å legge til element strukturen til element navnet.
+Vi bruker emmet abbreviation når vi skriver kode, istedenfor å manuelt skrive < h1>< /h1> kan vi kun skrive h1 og få hjelp av emmet abbreviation til å legge til element strukturen til element navnet.
 
 # Element strukturer
 
