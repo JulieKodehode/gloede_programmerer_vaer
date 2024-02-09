@@ -14,9 +14,14 @@ Vi bruker emmet abbreviation når vi skriver kode, istedenfor å manuelt skrive 
 
 Alle element har en struktur, enten det er med opening-tag og closing-tag eller om det er en selfclosing-tag.
 
-Opening tag: <h1>
-Closing tag: </h1>
-Selfclosing tag: <img />
+Opening tag: < h1>
+
+Closing tag: < /h1>
+
+Selfclosing tag: < img />
+
+
+OBS: Det er ikke mellomrom mellom i taggen, men for å demonstreres her må jeg legge til mellomrom.
 
 # Legge til bilder
 
