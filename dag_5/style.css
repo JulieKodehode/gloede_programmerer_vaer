@@ -1,0 +1,48 @@
+body {
+	margin: 0;
+}
+
+.image1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	height: 100vh;
+	background-image: url(cottage.jpg);
+	background-size: contain;
+	background-attachment: fixed;
+}
+
+.image2 {
+	height: 100vh;
+	background-image: url(person.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.image3 {
+	height: 100vh;
+	background-image: url(waterfall.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.section {
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.title {
+	display: inline-block;
+	padding: 7px;
+	background-color: black;
+	color: white;
+	font-size: 46px;
+}
