@@ -1,0 +1,21 @@
+.section {
+	max-width: 800px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
+.section img {
+	width: 40%;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+}
+
+@media (max-width: 769px) {
+	/* MAIN */
+	.section {
+		flex-direction: column;
+		align-items: center;
+	}
+}
