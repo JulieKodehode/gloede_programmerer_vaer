@@ -8,8 +8,6 @@
 
 .section img {
 	width: 40%;
-	margin-bottom: 10px;
-	box-sizing: border-box;
 }
 
 @media (max-width: 769px) {

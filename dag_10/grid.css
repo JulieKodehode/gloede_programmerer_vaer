@@ -1,8 +1,16 @@
+/* GRID METHOD */
 .section {
-	max-width: 800px;
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	gap: 10px;
+	/* COLUMN */
+	grid-template-columns: repeat(3, 1fr);
+	/* grid-template-columns: 1fr 1fr 1fr; */
+	/* grid-template-columns: 100px 200px 300px; */
+
+	/* ROW */
+	/* grid-template-rows: repeat(3, 1fr);
+	grid-template-columns: repeat(3, 1fr); */
+	gap: 20px;
+	padding: 0 10px;
 }
 
 .section img {
@@ -10,9 +18,12 @@
 }
 
 @media (max-width: 769px) {
-	/* MAIN */
 	.section {
+		/* COLUMN */
 		grid-template-columns: repeat(1, 1fr);
-		place-items: center;
+
+		/* ROW */
+		/* grid-template-rows: repeat(1, 1fr);
+		grid-template-columns: repeat(1, 1fr); */
 	}
 }
