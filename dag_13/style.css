@@ -1,0 +1,63 @@
+/* Resetting default margin and padding */
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100%;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+header,
+footer {
+	width: 100%;
+	text-align: center;
+	padding: 20px 0;
+	background-color: lightcoral;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-inline: 10px;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+section {
+	min-height: 100vh;
+	min-width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+}
+
+section:nth-child(odd) {
+	background-color: lightblue;
+}
+
+section > div {
+	flex-direction: row;
+	gap: 20px;
+}
+
+div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
