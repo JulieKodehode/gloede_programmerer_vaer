@@ -1,0 +1,18 @@
+body {
+  background-color: rgb(35, 34, 34);
+  color: rgb(201, 201, 201);
+  font-size: 2rem;
+}
+
+.lightMode {
+  background-color: rgb(201, 201, 201);
+  color: rgb(35, 34, 34);
+  height: 20rem;
+  width: 20rem;
+}
+
+.darkMode {
+  background-color: rgb(35, 34, 34);
+  color: rgb(201, 201, 201);
+  font-size: 2rem;
+}
