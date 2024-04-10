@@ -1,21 +1,21 @@
-// if else statements
+// document.querySelector er en funksjon som henter ut et element fra HTML-filen
+// når vi bruker # så henter vi ut et element med en spesifikk id
+// når vi bruker . så henter vi ut et element med en spesifikk class
+// id brukes kun på 1 element
+// class kan brukes på flere elementer
 
-// If the statement within the if () is true,
-// the code within the curly braces will run
+const nameBox = document.querySelector(".nameBox");
 
-// You should always have a else statement
-// that will run in any other case than the if statement is true
+const exampleArray = ["per", "pål", "espen"];
 
-// To add more conditions you can use else if ()
+// for å hente ut et element fra et array bruker vi [index]
+// index starter på 0, så per vil være null
+// på neste linje console logger vi per.
 
-let isBlue = true;
+console.log(exampleArray[0]);
 
-function changeIsBlue() {
-  if (isBlue == true) {
-    console.log("the sky is blue");
-    isBlue = false;
-  } else {
-    console.log("the sky is not blue");
-    isBlue = true;
-  }
+for (let i = 0; i < exampleArray.length; i++) {
+  const nameParagraph = document.createElement("p");
+  nameParagraph.textContent = exampleArray[i];
+  nameBox.appendChild(nameParagraph);
 }
