@@ -27,7 +27,7 @@ function calculator(num1, num2) {
 
 calculator(5, 5)
 
-// this. method
+// this. keyword
 
 /**
 This function takes four parameters. We are using 'this.' to set up each parameter as an key:value in a object. We create a new variable using the constructed function and adding values to the parameters in an argument. 
