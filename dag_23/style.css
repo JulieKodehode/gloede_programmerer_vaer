@@ -1,0 +1,37 @@
+* {
+   box-sizing: border-box;
+}
+
+body {
+   margin: 0;
+}
+
+.header {
+   display: flex;
+   justify-content: space-between;
+}
+
+.nav {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+}
+
+.hamburgerImg {
+   height: 32px;
+   width: 32px;
+}
+
+.ul {
+   list-style-type: none;
+   padding-left: 0;
+}
+
+.active {
+   display: flex;
+   flex-direction: column;
+}
+
+.invinsible {
+   display:none;
+}
