@@ -1,0 +1,44 @@
+/* Classes to style the header and navigation */
+.header {
+   display: flex;
+   justify-content: space-between;
+   background-color: white;
+   color: black;
+}
+
+.nav {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+}
+
+.hamburgerImg {
+   height: 32px;
+   width: 32px;
+}
+
+.ul {
+   list-style-type: none;
+   padding-left: 0;
+}
+
+/* Classes to view or not view the ul */
+.active {
+   display: flex;
+   flex-direction: column;
+}
+
+.hidden {
+   display:none;
+}
+
+/* Classes to change color theme */
+.light {
+   background-color: white;
+   color: black;
+}
+
+.dark {
+   background-color: black;
+   color: white;
+}
