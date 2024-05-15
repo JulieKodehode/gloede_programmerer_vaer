@@ -1,9 +1,19 @@
+/* Global */
+* {
+   box-sizing: border-box;
+}
+
+body {
+   margin: 0;
+}
+
 /* Classes to style the header and navigation */
 .header {
    display: flex;
    justify-content: space-between;
    background-color: white;
    color: black;
+   padding: 8px;
 }
 
 .nav {
@@ -12,9 +22,11 @@
    align-items: flex-end;
 }
 
-.hamburgerImg {
+/* Global header */
+.headerIcons {
    height: 32px;
    width: 32px;
+   cursor: pointer;
 }
 
 .ul {

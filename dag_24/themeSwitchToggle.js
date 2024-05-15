@@ -6,6 +6,8 @@ function themeSwitchToggle (light, dark) {
 
    const hamburgerImg = document.querySelector("#hamburgerImg")
 
+   const themeSwitchIcon = document.querySelector("#themeSwitch");
+
    // Check if clicked
    console.log("Is button clicked?")
 
@@ -15,15 +17,23 @@ function themeSwitchToggle (light, dark) {
       body.classList.remove(light)
       body.classList.add(dark)
 
-      // CSS modification to set the src for the img element in HTML
+      // CSS modification to set the src for the hamburger icon in header
       hamburgerImg.src = "menu.png"
+
+      // CSS modification to set the src and alt for the theme switch icon in header
+      themeSwitchIcon.src = "sun.png"
+      themeSwitchIcon.alt = "Sun icon for dark theme mode"
    } else if (body.classList.contains(dark)){
       // If true that dark is present remove dark and add light
       body.classList.remove(dark)
       body.classList.add(light)
 
-      // CSS modification to set the src for the img element in HTML
+      // CSS modification to set the src for the hamburger icon in header
       hamburgerImg.src = "hamburger.png"
+
+      // CSS modification to set the src and alt for the theme switch icon in header
+      themeSwitchIcon.src = "moon.png"
+      themeSwitchIcon.alt = "Moon icon for light theme mode"
    } else {
       console.log("Something is wrong")
    }
