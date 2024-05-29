@@ -2,6 +2,22 @@
 
 - Have to be light mode. With the option for dark mode
 
+## How to set up my page:
+
+- header
+   Funksjons knapper (theme toggle, hamburger meny, logo, etc)
+   Navigasjons bar som tar oss gjennom DENNE siden
+
+- main
+   Seksjon: Home
+   Seksjon: About
+   Seksjon: Projects
+   Seksjon: Contact
+
+- footer
+   Credit / egenskap
+   Navigasjons bar som tar oss UT av denne siden
+
 ## Content I need:
 
 - Home:
